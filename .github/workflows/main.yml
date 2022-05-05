@@ -2,9 +2,9 @@ name: CI
 
 on:
   push:
-    branches: [ bazelbuild ]
+    branches: [ main ]
   pull_request:
-    branches: [ bazelbuild ]
+    branches: [ main ]
 
 jobs:
   ci:
